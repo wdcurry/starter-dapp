@@ -19,7 +19,7 @@ const TransactionStatusModal = ({ show, txHash }: TransactionStatusModalType) =>
   const [txDStatus, setTxStatus] = useState({
     icon: faHourglass,
     status: txStatus.pending,
-    title: 'Procesing request',
+    title: 'Processing request',
   });
   const { dapp } = useContext();
   const history = useHistory();
