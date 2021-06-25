@@ -55,7 +55,7 @@ const TransactionStatusModal = ({ show, txHash }: TransactionStatusModalType) =>
               setTxStatus({ icon: faTimes, status: 'Failed', title: 'Request failed' });
               break;
             default:
-              setTxStatus({ icon: faHourglass, status: 'Pending', title: 'Procesing request' });
+              setTxStatus({ icon: faHourglass, status: 'Pending', title: 'Processing request' });
           }
           setLastTxStatus(transaction.status.status.valueOf().toLowerCase());
         })
