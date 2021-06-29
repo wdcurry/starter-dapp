@@ -32,7 +32,7 @@ const Home = () => {
               <Logo className="logo mb-spacer" />
               <h4 className="mb-spacer">Elrond Delegation Manager</h4>
               <p className="lead mb-spacer">
-                Delegate Elrond ({egldLabel}) and earn up to 15% APY!
+                Delegate {egldLabel} and earn up to 15% APY!
               </p>
               <p className="mb-spacer">Please select your login method:</p>
               <div>
